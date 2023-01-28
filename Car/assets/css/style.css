@@ -1,26 +1,6 @@
 /*
-*******************************************
-*******************************************
 
-Template Name: gauto
-Template URL: https://themescare.com/demos/gauto-preview
-Description: 
-Author: Themescare
-Author URL: https://themeforest.net/user/themescare
-Version: 1.0
-
-* This file contains the styling for the actual theme, this
-is the file you need to edit to change the look of the
-theme.
-
-This files contents are outlined below >>>>
-
-*** SEARCH EACH SECTION AS IT COMMENTS, YOU WILL GET THE RIGHT SECTION.
-
-*******************************************
-*******************************************
-
-==== CSS INDEX
+==== CSS INDEX ====
 
 01 - IMPORTED CSS
 02 - DEFAULT CSS
@@ -60,9 +40,11 @@ This files contents are outlined below >>>>
 */
 
 
-/*================================================
-01 - IMPORTED CSS
-==================================================*/
+/* 
+	================================================
+				01 - IMPORTED CSS
+   	================================================
+*/
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:500,500i,600,600i,700,700i,800,800i,900,900i&amp;display=swap');
 @import url('https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i&amp;display=swap');
@@ -212,8 +194,8 @@ li {
 	list-style-type: none;
 }
 
-.gauto-btn,
-button.gauto-theme-btn {
+.gFive-btn,
+button.gFive-theme-btn {
 	color: #fff;
 	background: transparent;
 	border-width: 2px;
@@ -231,10 +213,10 @@ button.gauto-theme-btn {
 	letter-spacing: 1px;
 }
 
-.gauto-btn:before,
-.gauto-btn:after,
-button.gauto-theme-btn:before,
-button.gauto-theme-btn:after {
+.gFive-btn:before,
+.gFive-btn:after,
+button.gFive-theme-btn:before,
+button.gFive-theme-btn:after {
 	content: '';
 	display: block;
 	position: absolute;
@@ -247,38 +229,38 @@ button.gauto-theme-btn:after {
 	transition: all 0.3s ease-in-out;
 }
 
-.gauto-btn:before,
-button.gauto-theme-btn:before {
+.gFive-btn:before,
+button.gFive-theme-btn:before {
 	top: -6px;
 	left: -6px;
 	border-width: 2px 0 0 2px;
 	z-index: 5;
 }
 
-.gauto-btn:after,
-button.gauto-theme-btn:after {
+.gFive-btn:after,
+button.gFive-theme-btn:after {
 	bottom: -6px;
 	right: -6px;
 	border-width: 0 2px 2px 0;
 }
 
-.gauto-btn:hover:before,
-.gauto-btn:hover:after,
-button.gauto-theme-btn:hover:before,
-button.gauto-theme-btn:hover:after {
+.gFive-btn:hover:before,
+.gFive-btn:hover:after,
+button.gFive-theme-btn:hover:before,
+button.gFive-theme-btn:hover:after {
 	width: calc(100% + 12px);
 	height: calc(100% + 12px);
 	border-color: #ec3323
 }
 
-.gauto-btn:hover,
-button.gauto-theme-btn:hover {
+.gFive-btn:hover,
+button.gFive-theme-btn:hover {
 	color: #fff;
 	background-color: #ec3323;
 	border-color: #ec3323
 }
 
-button.gauto-theme-btn {
+button.gFive-theme-btn {
 	color: #ec3323;
 	background: transparent;
 	border-width: 2px;
@@ -298,8 +280,8 @@ button.gauto-theme-btn {
 	width: 100%
 }
 
-button.gauto-theme-btn:before,
-button.gauto-theme-btn:after {
+button.gFive-theme-btn:before,
+button.gFive-theme-btn:after {
 	content: '';
 	display: block;
 	position: absolute;
@@ -312,30 +294,30 @@ button.gauto-theme-btn:after {
 	transition: all 0.3s ease-in-out;
 }
 
-.gauto-btn:before,
-button.gauto-theme-btn:before {
+.gFive-btn:before,
+button.gFive-theme-btn:before {
 	top: -6px;
 	left: -6px;
 	border-width: 2px 0 0 2px;
 	z-index: 5;
 }
 
-.gauto-btn:after,
-button.gauto-theme-btn:after {
+.gFive-btn:after,
+button.gFive-theme-btn:after {
 	bottom: -6px;
 	right: -6px;
 	border-width: 0 2px 2px 0;
 }
 
-button.gauto-theme-btn:hover:before,
-button.gauto-theme-btn:hover:after {
+button.gFive-theme-btn:hover:before,
+button.gFive-theme-btn:hover:after {
 	width: calc(100% + 12px);
 	height: calc(100% + 12px);
 	border-color: #ec3323
 }
 
-.gauto-btn:hover,
-button.gauto-theme-btn:hover {
+.gFive-btn:hover,
+button.gFive-theme-btn:hover {
 	color: #fff;
 	background-color: #ec3323;
 	border-color: #ec3323
@@ -412,7 +394,7 @@ button.gauto-theme-btn:hover {
 03 - RESPONSIVE CSS
 ==================================================*/
 
-.gauto-responsive-menu {
+.gFive-responsive-menu {
 	display: none;
 	position: absolute;
 	right: 0;
@@ -506,8 +488,8 @@ button.gauto-theme-btn:hover {
 	background-color: #fff;
 }
 
-.gauto-header-area.stick-top.sticky .slicknav_menu .slicknav_icon-bar,
-.gauto-header-area.home-3-page .slicknav_menu .slicknav_icon-bar {
+.gFive-header-area.stick-top.sticky .slicknav_menu .slicknav_icon-bar,
+.gFive-header-area.home-3-page .slicknav_menu .slicknav_icon-bar {
 	background-color: #fff
 }
 
@@ -565,13 +547,13 @@ button.gauto-theme-btn:hover {
 05 - BREADCROMB CSS
 ==================================================*/
 
-.gauto-breadcromb-area {
+.gFive-breadcromb-area {
 	background: url(../img/breadcromb.jpg) no-repeat fixed 0 0/cover;
 	position: relative;
 	z-index: 1;
 }
 
-.gauto-breadcromb-area:after {
+.gFive-breadcromb-area:after {
 	position: absolute;
 	content: "";
 	top: 0;
@@ -669,7 +651,7 @@ button.gauto-theme-btn:hover {
 07 - HEADER TOP CSS
 ==================================================*/
 
-.gauto-header-top-area {
+.gFive-header-top-area {
 	background: #020202 none repeat scroll 0 0;
 	color: #eee;
 	margin-bottom: 10px
@@ -773,7 +755,7 @@ button.gauto-theme-btn:hover {
 08 - MAIN HEADER CSS
 ==================================================*/
 
-.gauto-main-header-area {
+.gFive-main-header-area {
 	padding: 15px 0;
 }
 
@@ -861,7 +843,7 @@ button.gauto-theme-btn:hover {
 09 - MAINMENU CSS
 ==================================================*/
 
-.gauto-mainmenu-area {
+.gFive-mainmenu-area {
 	background: #020202 none repeat scroll 0 0;
 	border-bottom: 3px solid #363636
 }
@@ -1136,7 +1118,7 @@ button.gauto-theme-btn:hover {
 10 - MAIN SLIDER CSS
 ==================================================*/
 
-.gauto-slider-area {
+.gFive-slider-area {
 	position: relative
 }
 
@@ -1148,7 +1130,7 @@ button.gauto-theme-btn:hover {
 	background: url(../img/slider-2.jpg);
 }
 
-.gauto-main-slide {
+.gFive-main-slide {
 	background-color: #eee;
 	background-position: center center;
 	background-size: cover;
@@ -1165,14 +1147,14 @@ button.gauto-theme-btn:hover {
 	text-align: left;
 }
 
-.gauto-main-caption {
+.gFive-main-caption {
 	display: table;
 	height: 100%;
 	width: 100%;
 	background: rgba(0, 0, 0, 0.58) none repeat scroll 0 0;
 }
 
-.gauto-caption-cell {
+.gFive-caption-cell {
 	display: table-cell;
 	vertical-align: middle;
 	text-align: left;
@@ -1204,7 +1186,7 @@ button.gauto-theme-btn:hover {
 	text-transform: capitalize;
 }
 
-.gauto-slide .owl-nav>.owl-prev {
+.gFive-slide .owl-nav>.owl-prev {
 	visibility: hidden;
 	-webkit-transition: all 0.2s cubic-bezier(.83, .8, .11, .64) 0s;
 	transition: all 0.2s cubic-bezier(.83, .8, .11, .64) 0s;
@@ -1212,14 +1194,14 @@ button.gauto-theme-btn:hover {
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 }
 
-.gauto-slide:hover .owl-nav>.owl-prev {
+.gFive-slide:hover .owl-nav>.owl-prev {
 	visibility: visible;
 	opacity: 1;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 	left: 30px
 }
 
-.gauto-slide .owl-nav>.owl-next {
+.gFive-slide .owl-nav>.owl-next {
 	visibility: hidden;
 	-webkit-transition: all 0.2s cubic-bezier(.83, .8, .11, .64) 0s;
 	transition: all 0.2s cubic-bezier(.83, .8, .11, .64) 0s;
@@ -1227,20 +1209,20 @@ button.gauto-theme-btn:hover {
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 }
 
-.gauto-slide:hover .owl-nav>.owl-next {
+.gFive-slide:hover .owl-nav>.owl-next {
 	visibility: visible;
 	opacity: 1;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 	right: 30px
 }
 
-.gauto-slide .owl-prev {
+.gFive-slide .owl-prev {
 	left: -30px;
 	position: absolute;
 	top: 45%;
 }
 
-.gauto-slide .owl-next {
+.gFive-slide .owl-next {
 	right: -30px;
 	position: absolute;
 	top: 45%;
@@ -1251,7 +1233,7 @@ button.gauto-theme-btn:hover {
 11 - FIND AREA CSS
 ==================================================*/
 
-.gauto-find-area {
+.gFive-find-area {
 	margin-top: -75px;
 }
 
@@ -1465,7 +1447,7 @@ button.gauto-theme-btn:hover {
 13 - SERVICE AREA CSS
 ==================================================*/
 
-.gauto-service-area {
+.gFive-service-area {
 	background: #fbfbfd none repeat scroll 0 0;
 	padding-bottom: 105px
 }
@@ -1568,13 +1550,13 @@ button.gauto-theme-btn:hover {
 14 - PROMO AREA CSS
 ==================================================*/
 
-.gauto-promo-area {
+.gFive-promo-area {
 	position: relative;
 	background: url(../img/promo_bg.jpg) no-repeat fixed 0 0/cover;
 	z-index: 1;
 }
 
-.gauto-promo-area:after {
+.gFive-promo-area:after {
 	position: absolute;
 	content: "";
 	top: 0;
@@ -1828,14 +1810,14 @@ button.gauto-theme-btn:hover {
 16 - TESTIMONIAL AREA CSS
 ==================================================*/
 
-.gauto-testimonial-area {
+.gFive-testimonial-area {
 	position: relative;
 	background: url(../img/promo_bg.jpg) no-repeat fixed 0 0/cover;
 	z-index: 1;
 	padding-bottom: 100px
 }
 
-.gauto-testimonial-area:after {
+.gFive-testimonial-area:after {
 	position: absolute;
 	content: "";
 	top: 0;
@@ -1846,7 +1828,7 @@ button.gauto-theme-btn:hover {
 	z-index: -1;
 }
 
-.gauto-testimonial-area .site-heading h2 {
+.gFive-testimonial-area .site-heading h2 {
 	color: #fff
 }
 
@@ -1940,7 +1922,7 @@ button.gauto-theme-btn:hover {
 17 - DRIVER AREA CSS
 ==================================================*/
 
-.gauto-driver-area {
+.gFive-driver-area {
 	padding-bottom: 70px;
 }
 
@@ -2119,12 +2101,12 @@ button.gauto-theme-btn:hover {
 	margin-top: 20px
 }
 
-.load-more a.gauto-btn {
+.load-more a.gFive-btn {
 	color: #ec3323;
 	margin-bottom: 0
 }
 
-.load-more a.gauto-btn:hover {
+.load-more a.gFive-btn:hover {
 	color: #fff
 }
 
@@ -2313,7 +2295,7 @@ button.gauto-theme-btn:hover {
 	color: #ec3323
 }
 
-.gauto-blog-page-area {
+.gFive-blog-page-area {
 	padding-top: 40px
 }
 
@@ -2339,15 +2321,15 @@ button.gauto-theme-btn:hover {
 	color: #111;
 }
 
-.blog-text a.gauto-btn {
+.blog-text a.gFive-btn {
 	color: #ec3323
 }
 
-.blog-text a.gauto-btn:hover {
+.blog-text a.gFive-btn:hover {
 	color: #fff;
 }
 
-.blog-text a.gauto-btn {
+.blog-text a.gFive-btn {
 	color: #ec3323;
 	margin: 20px 0 0 0;
 }
@@ -2637,7 +2619,7 @@ button.gauto-theme-btn:hover {
 	margin: 0 auto;
 }
 
-.gauto-about-promo {
+.gFive-about-promo {
 	padding-bottom: 50px;
 	background: #fbfbfd none repeat scroll 0 0
 }
@@ -3092,7 +3074,7 @@ button.gauto-theme-btn:hover {
 24 - CAR BOOKING CSS
 ==================================================*/
 
-.gauto-car-booking{
+.gFive-car-booking{
 	background:#fbfbfb none repeat scroll 0 0
 }
 
@@ -3252,7 +3234,7 @@ button.gauto-theme-btn:hover {
 	margin-bottom: 0px;
 }
 
-.gauto-payment .payment {
+.gFive-payment .payment {
 	display: block;
 	position: relative;
 	float: left;
@@ -3260,12 +3242,12 @@ button.gauto-theme-btn:hover {
 	height: auto;
 }
 
-.gauto-payment .payment input[type=radio] {
+.gFive-payment .payment input[type=radio] {
 	position: absolute;
 	visibility: hidden;
 }
 
-.gauto-payment .payment label {
+.gFive-payment .payment label {
 	display: inline-block;
 	position: relative;
 	padding: 0 0 0 30px;
@@ -3277,7 +3259,7 @@ button.gauto-theme-btn:hover {
 	font-weight: 500;
 }
 
-.gauto-payment .payment .check {
+.gFive-payment .payment .check {
 	display: block;
 	position: absolute;
 	border: 3px solid #AAAAAA;
@@ -3291,7 +3273,7 @@ button.gauto-theme-btn:hover {
 	-webkit-transition: border .25s linear;
 }
 
-.gauto-payment .payment .check:before {
+.gFive-payment .payment .check:before {
 	display: block;
 	position: absolute;
 	content: '';
@@ -3326,12 +3308,12 @@ input[type="radio"]:checked~label {
 	text-align: right
 }
 
-.action-btn a.gauto-btn {
+.action-btn a.gFive-btn {
 	color: #ec3323;
 	margin: 30px 0 0 0
 }
 
-.action-btn a.gauto-btn:hover {
+.action-btn a.gFive-btn:hover {
 	color: #fff;
 }
 
@@ -3340,7 +3322,7 @@ input[type="radio"]:checked~label {
 25 - GALLERY CSS
 ==================================================*/
 
-.gauto-gallery-area {
+.gFive-gallery-area {
 	padding-top: 40px;
 	padding-bottom: 60px
 }
@@ -3723,12 +3705,12 @@ input[type="radio"]:checked~label {
 	color: #ec3323;
 }
 
-.single-shop-page-btn a.gauto-btn {
+.single-shop-page-btn a.gFive-btn {
 	color: #ec3323;
 	margin: 0;
 }
 
-.single-shop-page-btn a.gauto-btn:hover {
+.single-shop-page-btn a.gFive-btn:hover {
 	color: #fff;
 }
 
@@ -3765,13 +3747,13 @@ input[type="radio"]:checked~label {
 }
 
 .single-shop-page-btn ul li a:hover,
-.gauto-cart-close a:hover {
+.gFive-cart-close a:hover {
 	background: #ec3323 none repeat scroll 0 0;
 	color: #fff;
 	border: 1px solid #ec3323
 }
 
-.gauto-related-products .product-item {
+.gFive-related-products .product-item {
 	margin-top: 30px;
 	margin-bottom: 0
 }
@@ -3806,13 +3788,13 @@ input[type="radio"]:checked~label {
 	color: #001238;
 }
 
-.gauto-cart-preview {
+.gFive-cart-preview {
 	width: 115px;
 	height: 100px;
 	text-align: center;
 }
 
-.gauto-cart-preview img {
+.gFive-cart-preview img {
 	width: 100%;
 	height: 100%
 }
@@ -3829,21 +3811,21 @@ input[type="radio"]:checked~label {
 	text-transform: capitalize;
 }
 
-.gauto-cart-quantity>input {
+.gFive-cart-quantity>input {
 	border: 1px solid #ddd;
 	padding: 5px;
 	width: 70px;
 }
 
-.gauto-cart-close {
+.gFive-cart-close {
 	text-align: center;
 }
 
-.gauto-cart-total {
+.gFive-cart-total {
 	font-weight: 500;
 }
 
-.gauto-cart-close a {
+.gFive-cart-close a {
 	color: #333;
 	width: 35px;
 	display: inline-block;
@@ -3900,12 +3882,12 @@ input[type="radio"]:checked~label {
 	margin-top: 30px
 }
 
-.checkout-action a.gauto-btn {
+.checkout-action a.gFive-btn {
 	color: #ec3323;
 	margin: 0
 }
 
-.checkout-action a.gauto-btn:hover {
+.checkout-action a.gFive-btn:hover {
 	color: #fff;
 }
 
@@ -4019,13 +4001,13 @@ input[type="radio"]:checked~label {
 	position: relative;
 }
 
-.gauto-comment-list,
-.gauto-leave-comment {
+.gFive-comment-list,
+.gFive-leave-comment {
 	margin-top: 50px;
 }
 
-.gauto-comment-list h2,
-.gauto-leave-comment h2 {
+.gFive-comment-list h2,
+.gFive-leave-comment h2 {
 	font-size: 23px;
 	color: #001238;
 	letter-spacing: 1px;
@@ -4096,7 +4078,7 @@ input[type="radio"]:checked~label {
 	padding-left: 100px;
 }
 
-.gauto-leave-comment form input {
+.gFive-leave-comment form input {
 	width: 45%;
 	border: 2px solid #f0f0ff;
 	padding: 5px 10px;
@@ -4107,7 +4089,7 @@ input[type="radio"]:checked~label {
 	margin: 10px 15px 10px 0px;
 }
 
-.gauto-leave-comment form textarea {
+.gFive-leave-comment form textarea {
 	border: 2px solid #f0f0ff;
 	padding: 5px 10px;
 	margin: 10px 0;
@@ -4118,12 +4100,12 @@ input[type="radio"]:checked~label {
 	transition: all 0.4s ease 0s;
 }
 
-.gauto-leave-comment form input:focus,
-.gauto-leave-comment form textarea:focus {
+.gFive-leave-comment form input:focus,
+.gFive-leave-comment form textarea:focus {
 	border: 2px solid #ec3323
 }
 
-.gauto-leave-comment .gauto-theme-btn {
+.gFive-leave-comment .gFive-theme-btn {
 	width: auto;
 	margin-top: 20px
 }
@@ -4167,12 +4149,12 @@ input[type="radio"]:checked~label {
 	line-height: 40px;
 }
 
-.notfound-box a.gauto-btn {
+.notfound-box a.gFive-btn {
 	margin: 30px 0 0 0;
 	color: #ec3323;
 }
 
-.notfound-box a.gauto-btn:hover {
+.notfound-box a.gFive-btn:hover {
 	color: #fff
 }
 
@@ -4181,7 +4163,7 @@ input[type="radio"]:checked~label {
 32 - LOGIN PAGE CSS
 ==================================================*/
 
-.gauto-login-area {
+.gFive-login-area {
 	background: #fbfbfd none repeat scroll 0 0;
 }
 
@@ -4251,7 +4233,7 @@ input[type="radio"]:checked~label {
 	transition: all .4s ease 0s
 }
 
-.login-box button.gauto-theme-btn {
+.login-box button.gFive-theme-btn {
 	margin: 20px 0 0 0;
 	width: auto;
 	display: inline-block;
@@ -4481,7 +4463,7 @@ input[type="radio"]:checked~label {
 	border: 2px solid #ec3323;
 }
 
-.single-contact-field button.gauto-theme-btn {
+.single-contact-field button.gFive-theme-btn {
 	width: auto;
 	display: inline-block;
 	margin-top: 20px

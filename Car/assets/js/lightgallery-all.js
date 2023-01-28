@@ -1,9 +1,4 @@
-/*! lightgallery - v1.6.10 - 2018-05-01
-* http://sachinchoolur.github.io/lightGallery/
-* Copyright (c) 2018 Sachin N; Licensed GPLv3 */
-/*! lightgallery - v1.6.10 - 2018-05-01
-* http://sachinchoolur.github.io/lightGallery/
-* Copyright (c) 2018 Sachin N; Licensed GPLv3 */
+
 (function (root, factory) {
   if (typeof define === 'function' && define.amd) {
     // AMD. Register as an anonymous module unless amdModuleId is set

@@ -1,13 +1,6 @@
-/************* Main Js File ************************
-    Template Name: gauto
-    Author: Themescare
-    Version: 1.0
-    Copyright 2019
-*************************************************************/
 
+/*
 
-/*------------------------------------------------------------------------------------
-    
 JS INDEX
 =============
 
@@ -19,10 +12,7 @@ JS INDEX
 06 - Responsive Menu JS
 07 - Back To Top
 
-
-
-
--------------------------------------------------------------------------------------*/
+*/
 
 
 (function ($) {
@@ -37,7 +27,7 @@ JS INDEX
 		=================================================================	
 		*/
 
-		$(".gauto-slide").owlCarousel({
+		$(".gFive-slide").owlCarousel({
 			animateOut: 'fadeOutLeft',
 			animateIn: 'fadeIn',
 			items: 2,
@@ -72,15 +62,15 @@ JS INDEX
 			}
 		});
 
-		$(".gauto-slide").on("translate.owl.carousel", function () {
-			$(".gauto-main-slide h2").removeClass("animated fadeInUp").css("opacity", "0");
-			$(".gauto-main-slide p").removeClass("animated fadeInDown").css("opacity", "0");
-			$(".gauto-main-slide .gauto-btn").removeClass("animated fadeInDown").css("opacity", "0");
+		$(".gFive-slide").on("translate.owl.carousel", function () {
+			$(".gFive-main-slide h2").removeClass("animated fadeInUp").css("opacity", "0");
+			$(".gFive-main-slide p").removeClass("animated fadeInDown").css("opacity", "0");
+			$(".gFive-main-slide .gFive-btn").removeClass("animated fadeInDown").css("opacity", "0");
 		});
-		$(".gauto-slide").on("translated.owl.carousel", function () {
-			$(".gauto-main-slide h2").addClass("animated fadeInUp").css("opacity", "1");
-			$(".gauto-main-slide p").addClass("animated fadeInDown").css("opacity", "1");
-			$(".gauto-main-slide .gauto-btn").addClass("animated fadeInDown").css("opacity", "1");
+		$(".gFive-slide").on("translated.owl.carousel", function () {
+			$(".gFive-main-slide h2").addClass("animated fadeInUp").css("opacity", "1");
+			$(".gFive-main-slide p").addClass("animated fadeInDown").css("opacity", "1");
+			$(".gFive-main-slide .gFive-btn").addClass("animated fadeInDown").css("opacity", "1");
 		});
 
 		/* 
@@ -181,8 +171,8 @@ JS INDEX
 		06 - Responsive Menu JS
 		=================================================================	
 		*/
-		$("ul#gauto_navigation").slicknav({
-			prependTo: ".gauto-responsive-menu"
+		$("ul#gFive_navigation").slicknav({
+			prependTo: ".gFive-responsive-menu"
 		});
 
 

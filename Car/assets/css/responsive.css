@@ -46,7 +46,7 @@
 	.header-top-left:before {
 		right: 0
 	}
-	.gauto-responsive-menu {
+	.gFive-responsive-menu {
 		display: block;
 		width: 50%;
 		left: 0
@@ -70,10 +70,10 @@
 		position: relative;
 		z-index: 999
 	}
-    .gauto-about-area{
+    .gFive-about-area{
         padding-bottom: 20px
     }
-	.gauto-mainmenu-area {
+	.gFive-mainmenu-area {
 		padding: 15px 0;
         min-height: 60px
 	}
@@ -88,7 +88,7 @@
 	.slider-text h2 {
 		font-size: 50px
 	}
-	.gauto-main-slide {
+	.gFive-main-slide {
 		height: 460px
 	}
 	.find-box {
@@ -122,11 +122,11 @@
 	.offer-tabs .row .col-lg-4:last-child {
 		display: none
 	}
-	.gauto-blog-area .row .col-lg-4:last-child {
+	.gFive-blog-area .row .col-lg-4:last-child {
 		display: none
 	}
 	.offer-tabs .row .col-lg-4,
-	.gauto-blog-area .row .col-lg-4 {
+	.gFive-blog-area .row .col-lg-4 {
 		width: 50%
 	}
 	.single-footer {
@@ -252,7 +252,7 @@
 	.header-top-right {
 		text-align: center
 	}
-	.gauto-responsive-menu {
+	.gFive-responsive-menu {
 		display: block;
 	}
 	.site-logo {
@@ -263,20 +263,20 @@
 	.site-logo img {
 		width: 100%
 	}
-    .gauto-about-area{
+    .gFive-about-area{
         padding-bottom: 50px
     }
 	.header-promo,
 	.header-action {
 		display: none
 	}
-	.gauto-header-top-area {
+	.gFive-header-top-area {
 		margin-bottom: 0
 	}
 	.mainmenu {
 		display: none
 	}
-	.gauto-header-top-area {
+	.gFive-header-top-area {
 		background: #fff none repeat scroll 0 0;
 		border-bottom: 1px solid #eee
 	}
@@ -309,7 +309,7 @@
 		z-index: 999999;
 		width: 100%;
 	}
-	.gauto-mainmenu-area {
+	.gFive-mainmenu-area {
 		min-height: 50px
 	}
 	.header-cart-box .dropdown.show .cart-dropdown {
@@ -334,7 +334,7 @@
 	.slider-text h2 {
 		font-size: 35px
 	}
-	.gauto-main-slide {
+	.gFive-main-slide {
 		height: 380px
 	}
 	.find-box {
@@ -355,7 +355,7 @@
 		margin-top: 15px;
 		margin-bottom: 0
 	}
-	.gauto-find-area {
+	.gFive-find-area {
 		margin-top: -55px
 	}
 	.about-left h2 {
@@ -385,7 +385,7 @@
 		font-size: 28px;
 		line-height: 40px
 	}
-	.promo-box-right a.gauto-btn {
+	.promo-box-right a.gFive-btn {
 		margin-bottom: 0
 	}
 	#offerTab li {
@@ -529,11 +529,11 @@
 	.single-comment-box.reply-comment {
 		padding-left: 30px
 	}
-	.gauto-leave-comment form input {
+	.gFive-leave-comment form input {
 		width: 100%;
 		margin-right: 0
 	}
-	.gauto-leave-comment form textarea {
+	.gFive-leave-comment form textarea {
 		width: 100%
 	}
 	.notfound-box {
@@ -578,7 +578,7 @@
 	.header-top-right {
 		text-align: center
 	}
-	.gauto-responsive-menu {
+	.gFive-responsive-menu {
 		display: block
 	}
 	.site-logo {
@@ -586,7 +586,7 @@
 		width: 45%;
 		margin: 0 auto;
 	}
-    .gauto-about-area{
+    .gFive-about-area{
         padding-bottom: 50px
     }
 	.site-logo img {
@@ -603,13 +603,13 @@
 	.header-action {
 		display: none
 	}
-	.gauto-header-top-area {
+	.gFive-header-top-area {
 		margin-bottom: 0
 	}
 	.mainmenu {
 		display: none
 	}
-	.gauto-header-top-area {
+	.gFive-header-top-area {
 		background: #fff none repeat scroll 0 0;
 		border-bottom: 1px solid #eee
 	}
@@ -642,7 +642,7 @@
 		z-index: 999999;
 		width: 100%;
 	}
-	.gauto-mainmenu-area {
+	.gFive-mainmenu-area {
 		min-height: 50px
 	}
 	.header-cart-box .dropdown.show .cart-dropdown {
@@ -667,7 +667,7 @@
 	.slider-text h2 {
 		font-size: 35px
 	}
-	.gauto-main-slide {
+	.gFive-main-slide {
 		height: 380px
 	}
 	.find-box {
@@ -697,7 +697,7 @@
 		margin-top: 15px;
 		margin-bottom: 0
 	}
-	.gauto-find-area {
+	.gFive-find-area {
 		margin-top: -55px
 	}
 	.about-left h2 {
@@ -727,7 +727,7 @@
 		font-size: 28px;
 		line-height: 40px
 	}
-	.promo-box-right a.gauto-btn {
+	.promo-box-right a.gFive-btn {
 		margin-bottom: 0
 	}
 	#offerTab li {
@@ -865,11 +865,11 @@
 	.single-comment-box.reply-comment {
 		padding-left: 30px
 	}
-	.gauto-leave-comment form input {
+	.gFive-leave-comment form input {
 		width: 100%;
 		margin-right: 0
 	}
-	.gauto-leave-comment form textarea {
+	.gFive-leave-comment form textarea {
 		width: 100%
 	}
 	.notfound-box {
