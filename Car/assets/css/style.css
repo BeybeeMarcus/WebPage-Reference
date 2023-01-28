@@ -200,7 +200,7 @@ button.gFive-theme-btn {
 	background: transparent;
 	border-width: 2px;
 	border-style: solid;
-	border-color: #ec3323;
+	border-color: #ff9317;
 	position: relative;
 	margin: 1em;
 	display: inline-block;
@@ -220,7 +220,7 @@ button.gFive-theme-btn:after {
 	content: '';
 	display: block;
 	position: absolute;
-	border-color: #ec3323;
+	border-color: #ff9317;
 	box-sizing: border-box;
 	border-style: solid;
 	width: 1em;
@@ -250,22 +250,22 @@ button.gFive-theme-btn:hover:before,
 button.gFive-theme-btn:hover:after {
 	width: calc(100% + 12px);
 	height: calc(100% + 12px);
-	border-color: #ec3323
+	border-color: #ff9317
 }
 
 .gFive-btn:hover,
 button.gFive-theme-btn:hover {
 	color: #fff;
-	background-color: #ec3323;
-	border-color: #ec3323
+	background-color: #ff9317;
+	border-color: #ff9317
 }
 
 button.gFive-theme-btn {
-	color: #ec3323;
+	color: #ff9317;
 	background: transparent;
 	border-width: 2px;
 	border-style: solid;
-	border-color: #ec3323;
+	border-color: #ff9317;
 	position: relative;
 	display: block;
 	padding: 8px 15px;
@@ -285,7 +285,7 @@ button.gFive-theme-btn:after {
 	content: '';
 	display: block;
 	position: absolute;
-	border-color: #ec3323;
+	border-color: #ff9317;
 	box-sizing: border-box;
 	border-style: solid;
 	width: 1em;
@@ -313,14 +313,14 @@ button.gFive-theme-btn:hover:before,
 button.gFive-theme-btn:hover:after {
 	width: calc(100% + 12px);
 	height: calc(100% + 12px);
-	border-color: #ec3323
+	border-color: #ff9317
 }
 
 .gFive-btn:hover,
 button.gFive-theme-btn:hover {
 	color: #fff;
-	background-color: #ec3323;
-	border-color: #ec3323
+	background-color: #ff9317;
+	border-color: #ff9317
 }
 
 .site-heading {
@@ -332,7 +332,7 @@ button.gFive-theme-btn:hover {
 
 .site-heading h4 {
 	font-size: 20px;
-	color: #ec3323;
+	color: #ff9317;
 	margin-bottom: 10px;
 	display: block;
 	font-weight: 500;
@@ -422,7 +422,7 @@ button.gFive-theme-btn:hover {
 
 .slicknav_arrow {
 	float: right;
-	color: #ec3323
+	color: #ff9317
 }
 
 .slicknav_nav a:hover {
@@ -435,7 +435,7 @@ button.gFive-theme-btn:hover {
 
 .slicknav_nav a:hover,
 .slicknav_nav .slicknav_row:hover {
-	background: #ec3323 none repeat scroll 0 0;
+	background: #ff9317 none repeat scroll 0 0;
 	color: #fff
 }
 
@@ -461,7 +461,7 @@ button.gFive-theme-btn:hover {
 
 .slicknav_nav {
 	background: #fff none repeat scroll 0 0;
-	border-top: 1px solid #ec3323;
+	border-top: 1px solid #ff9317;
 	box-shadow: 0 0 25px rgba(0, 0, 0, 0.19)
 }
 
@@ -593,7 +593,7 @@ button.gFive-theme-btn:hover {
 }
 
 .breadcromb-box li i {
-	color: #ec3323
+	color: #ff9317
 }
 
 
@@ -610,8 +610,8 @@ button.gFive-theme-btn:hover {
 }
 
 .btntoTop {
-	background-color: #ec3323;
-	border: 2px solid #ec3323;
+	background-color: #ff9317;
+	border: 2px solid #ff9317;
 	border-radius: 5px;
 	bottom: 70px;
 	cursor: pointer;
@@ -637,7 +637,7 @@ button.gFive-theme-btn:hover {
 
 .btntoTop.active:hover {
 	background: #212121 none repeat scroll 0 0;
-	border: 2px solid #cb2415;
+	border: 2px solid #ff9317;
 	opacity: 0.8;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
 }
@@ -665,7 +665,7 @@ button.gFive-theme-btn:hover {
 
 .header-top-left:before {
 	position: absolute;
-	background: #ec3323 none repeat scroll 0 0;
+	background: #ff9317 none repeat scroll 0 0;
 	content: "";
 	top: 0;
 	right: 37%;
@@ -697,7 +697,7 @@ button.gFive-theme-btn:hover {
 	height: 25px;
 	line-height: 25px;
 	background: #fff none repeat scroll 0 0;
-	color: #ec3323;
+	color: #ff9317;
 	border-radius: 50%;
 	margin: 0 2px;
 }
@@ -813,7 +813,7 @@ button.gFive-theme-btn:hover {
 	display: inline-block;
 	text-align: center;
 	padding: 10px 25px 10px 0px;
-	background: #ec3323 none repeat scroll 0 0;
+	background: #ff9317 none repeat scroll 0 0;
 	color: #fff;
 	text-transform: uppercase;
 	font-weight: 500;
@@ -823,7 +823,7 @@ button.gFive-theme-btn:hover {
 
 .header-action a:before {
 	position: absolute;
-	background: #ec3323 none repeat scroll 0 0;
+	background: #ff9317 none repeat scroll 0 0;
 	content: "";
 	top: 0;
 	left: -25px;
@@ -868,7 +868,7 @@ button.gFive-theme-btn:hover {
 
 .mainmenu ul li:hover>a,
 .mainmenu ul li.active>a {
-	color: #ec3323
+	color: #ff9317
 }
 
 .mainmenu ul li ul {
@@ -937,7 +937,7 @@ button.gFive-theme-btn:hover {
 	position: absolute;
 	width: 18px;
 	height: 18px;
-	background: #ec3323 none repeat scroll 0 0;
+	background: #ff9317 none repeat scroll 0 0;
 	font-size: 10px;
 	line-height: 20px;
 	color: #fff;
@@ -1017,7 +1017,7 @@ button.gFive-theme-btn:hover {
 .product-remove {
 	float: right;
 	font-size: 16px !important;
-	color: #ec3323;
+	color: #ff9317;
 }
 
 .cart-btn-pro-img {
@@ -1096,7 +1096,7 @@ button.gFive-theme-btn:hover {
 	content: "";
 	width: 66%;
 	height: 100%;
-	background: #ec3323 none repeat scroll 0 0;
+	background: #ff9317 none repeat scroll 0 0;
 	right: -36px;
 	z-index: -1;
 	-webkit-transform: skewX(40deg);
@@ -1106,7 +1106,7 @@ button.gFive-theme-btn:hover {
 }
 
 .cart-btn:hover {
-	background: #ec3323 none repeat scroll 0 0;
+	background: #ff9317 none repeat scroll 0 0;
 }
 
 .cart-btn:hover:after {
@@ -1269,7 +1269,7 @@ button.gFive-theme-btn:hover {
 }
 
 .find-form p input:focus {
-	border: 2px solid #ec3323
+	border: 2px solid #ff9317
 }
 
 .find-form .nice-select {
@@ -1306,7 +1306,7 @@ button.gFive-theme-btn:hover {
 .datepicker .cell.month.selected,
 .datepicker .cell.year.selected,
 .datepicker .cell.decade.selected {
-	background: #ca3d26 none repeat scroll 0 0;
+	background: #ff9317 none repeat scroll 0 0;
 	color: #fff;
 }
 
@@ -1314,7 +1314,7 @@ button.gFive-theme-btn:hover {
 .datepicker .cell.month:hover,
 .datepicker .cell.year:hover,
 .datepicker .cell.decade:hover {
-	background: #ca3d26 none repeat scroll 0 0;
+	background: #ff9317 none repeat scroll 0 0;
 	color: #fff;
 }
 
@@ -1324,7 +1324,7 @@ button.gFive-theme-btn:hover {
 
 .text-primary,
 .clockpicker-popover .popover-title {
-	color: #ef4836;
+	color: #ff9317;
 }
 
 .datepicker .row.header a {
@@ -1341,7 +1341,7 @@ button.gFive-theme-btn:hover {
 }
 
 .popover-title span {
-	color: #ef4836
+	color: #ff9317
 }
 
 .popover-title .text-primary {
@@ -1366,7 +1366,7 @@ button.gFive-theme-btn:hover {
 
 .about-left h4 {
 	font-size: 20px;
-	color: #ec3323;
+	color: #ff9317;
 	margin-bottom: 10px;
 	display: block;
 	font-weight: 500;
@@ -1404,7 +1404,7 @@ button.gFive-theme-btn:hover {
 	height: 20px;
 	text-align: center;
 	border-radius: 2px;
-	background: #ec3323 none repeat scroll 0 0;
+	background: #ff9317 none repeat scroll 0 0;
 	color: #fff;
 	line-height: 20px;
 	font-size: 12px;
@@ -1513,7 +1513,7 @@ button.gFive-theme-btn:hover {
 
 .service-text a:hover,
 .service-text h3:hover {
-	color: #ec3323
+	color: #ff9317
 }
 
 .service-slider .owl-dots {
@@ -1542,7 +1542,7 @@ button.gFive-theme-btn:hover {
 
 .service-slider .owl-dots .owl-dot.active span,
 .service-slider .owl-dots .owl-dot:hover span {
-	background: #ec3323 none repeat scroll 0 0;
+	background: #ff9317 none repeat scroll 0 0;
 }
 
 
@@ -1580,7 +1580,7 @@ button.gFive-theme-btn:hover {
 
 .promo-box-left:after {
 	position: absolute;
-	background: #ec3323 none repeat scroll 0 0;
+	background: #ff9317 none repeat scroll 0 0;
 	content: "";
 	top: 0;
 	right: 55%;
@@ -1678,7 +1678,7 @@ button.gFive-theme-btn:hover {
 }
 
 #offerTab li.nav-item a.nav-link:hover:after {
-	background: #ec3323 none repeat scroll 0 0;
+	background: #ff9317 none repeat scroll 0 0;
 	-webkit-transform: skew(-40deg);
 	transform: skew(-40deg);
 }
@@ -1693,7 +1693,7 @@ button.gFive-theme-btn:hover {
 	z-index: -1;
 	-webkit-transition: all 0.3s ease 0s;
 	transition: all 0.3s ease 0s;
-	background: #ec3323 none repeat scroll 0 0;
+	background: #ff9317 none repeat scroll 0 0;
 	-webkit-transform: skew(-40deg);
 	transform: skew(-40deg);
 }
@@ -1741,7 +1741,7 @@ button.gFive-theme-btn:hover {
 
 .offer-text h4 span {
 	text-transform: capitalize;
-	color: #ec3323;
+	color: #ff9317;
 	font-size: 16px;
 }
 
@@ -1772,7 +1772,7 @@ button.gFive-theme-btn:hover {
 	content: "";
 	width: 66%;
 	height: 100%;
-	background: #ec3323 none repeat scroll 0 0;
+	background: #ff9317 none repeat scroll 0 0;
 	right: -36px;
 	z-index: -1;
 	-webkit-transform: skewX(40deg);
@@ -1782,7 +1782,7 @@ button.gFive-theme-btn:hover {
 }
 
 .offer-action:hover {
-	background: #ec3323 none repeat scroll 0 0;
+	background: #ff9317 none repeat scroll 0 0;
 }
 
 .offer-action:hover:after {
@@ -1802,7 +1802,7 @@ button.gFive-theme-btn:hover {
 
 .offer-text ul li i {
 	margin-right: 5px;
-	color: #ec3323
+	color: #ff9317
 }
 
 
@@ -1885,7 +1885,7 @@ button.gFive-theme-btn:hover {
 }
 
 .client-info p {
-	color: #ec3323;
+	color: #ff9317;
 }
 
 .testimonial-slider .owl-dots {
@@ -1914,7 +1914,7 @@ button.gFive-theme-btn:hover {
 
 .testimonial-slider .owl-dots .owl-dot.active span,
 .testimonial-slider .owl-dots .owl-dot:hover span {
-	background: #ec3323 none repeat scroll 0 0;
+	background: #ff9317 none repeat scroll 0 0;
 }
 
 
@@ -1961,7 +1961,7 @@ button.gFive-theme-btn:hover {
 	height: 40px;
 	text-align: center;
 	line-height: 40px;
-	background-color: #ec3323;
+	background-color: #ff9317;
 	border-radius: 50%;
 	color: #fff;
 	font-size: 14px;
@@ -2089,7 +2089,7 @@ button.gFive-theme-btn:hover {
 }
 
 .driver-text a h3:hover {
-	color: #ec3323
+	color: #ff9317
 }
 
 .driver_page .pagination-box-row {
@@ -2102,7 +2102,7 @@ button.gFive-theme-btn:hover {
 }
 
 .load-more a.gFive-btn {
-	color: #ec3323;
+	color: #ff9317;
 	margin-bottom: 0
 }
 
@@ -2156,7 +2156,7 @@ button.gFive-theme-btn:hover {
 }
 
 .call-box h2 span {
-	color: #ec3323
+	color: #ff9317
 }
 
 .call-box-inner p {
@@ -2190,7 +2190,7 @@ button.gFive-theme-btn:hover {
 
 .call-text p {
 	text-transform: capitalize;
-	color: #e04639;
+	color: #ff9317;
 	font-size: 17px;
 	margin-bottom: 5px;
 }
@@ -2237,7 +2237,7 @@ button.gFive-theme-btn:hover {
 }
 
 .blog-text h3 a:hover {
-	color: #ec3323
+	color: #ff9317
 }
 
 .blog-meta-home {
@@ -2292,7 +2292,7 @@ button.gFive-theme-btn:hover {
 
 .blog-meta-right p i {
 	margin-right: 5px;
-	color: #ec3323
+	color: #ff9317
 }
 
 .gFive-blog-page-area {
@@ -2314,7 +2314,7 @@ button.gFive-theme-btn:hover {
 
 .blog-text ul li i {
 	margin-right: 5px;
-	color: #ec3323;
+	color: #ff9317;
 }
 
 .blog-text ul li a {
@@ -2322,7 +2322,7 @@ button.gFive-theme-btn:hover {
 }
 
 .blog-text a.gFive-btn {
-	color: #ec3323
+	color: #ff9317
 }
 
 .blog-text a.gFive-btn:hover {
@@ -2330,7 +2330,7 @@ button.gFive-theme-btn:hover {
 }
 
 .blog-text a.gFive-btn {
-	color: #ec3323;
+	color: #ff9317;
 	margin: 20px 0 0 0;
 }
 
@@ -2404,7 +2404,7 @@ button.gFive-theme-btn:hover {
 	bottom: -13px;
 	width: 18%;
 	height: 2px;
-	background: #ec3323;
+	background: #ff9317;
 	left: 0;
 }
 
@@ -2455,7 +2455,7 @@ button.gFive-theme-btn:hover {
 	background: transparent;
 	right: 10px;
 	height: 100%;
-	color: #ec3323;
+	color: #ff9317;
 	cursor: pointer;
 }
 
@@ -2499,7 +2499,7 @@ button.gFive-theme-btn:hover {
 }
 
 .footer-post-text p {
-	color: #e97369;
+	color: #ee9d40;
 	font-style: italic;
 	font-size: 13px;
 }
@@ -2517,7 +2517,7 @@ button.gFive-theme-btn:hover {
 }
 
 .copyright p i {
-	color: #ec3323;
+	color: #ff9317;
 	margin: 0 2px;
 }
 
@@ -2547,7 +2547,7 @@ button.gFive-theme-btn:hover {
 
 .about-page-left h4 {
 	font-size: 20px;
-	color: #ec3323;
+	color: #ff9317;
 	margin-bottom: 10px;
 	display: block;
 	font-weight: 500;
@@ -2593,12 +2593,12 @@ button.gFive-theme-btn:hover {
 .page-call-icon {
 	font-size: 50px;
 	margin-right: 30px;
-	color: #ec3323;
+	color: #ff9317;
 }
 
 .call-info p {
 	text-transform: capitalize;
-	color: #ec3323;
+	color: #ff9317;
 	font-size: 17px;
 	margin-bottom: 5px;
 }
@@ -2639,7 +2639,7 @@ button.gFive-theme-btn:hover {
 }
 
 .about-promo-text h3 span {
-	color: #ec3323
+	color: #ff9317
 }
 
 .about-promo-image {
@@ -2688,7 +2688,7 @@ button.gFive-theme-btn:hover {
 
 .service-menu li.active a,
 .service-menu li a:hover {
-	color: #ec3323;
+	color: #ff9317;
 	padding-left: 25px
 }
 
@@ -2709,7 +2709,7 @@ button.gFive-theme-btn:hover {
 	content: "";
 	width: 62%;
 	height: 100%;
-	background: #ec3323 none repeat scroll 0 0;
+	background: #ff9317 none repeat scroll 0 0;
 	right: -36px;
 	z-index: -1;
 	-webkit-transform: skewX(40deg);
@@ -2733,7 +2733,7 @@ button.gFive-theme-btn:hover {
 }
 
 .brochures:hover {
-	background: #ec3323 none repeat scroll 0 0;
+	background: #ff9317 none repeat scroll 0 0;
 }
 
 .brochures:hover:after {
@@ -2782,7 +2782,7 @@ button.gFive-theme-btn:hover {
 }
 
 .service-page-banner a:hover {
-	color: #ec3323;
+	color: #ff9317;
 	background-color: #fff;
 	border-color: #fff;
 }
@@ -2834,7 +2834,7 @@ button.gFive-theme-btn:hover {
 }
 
 .service-details-list li i {
-	color: #ec3323;
+	color: #ff9317;
 	margin-right: 5px;
 }
 
@@ -2870,7 +2870,7 @@ button.gFive-theme-btn:hover {
 }
 
 .Tags-catagory a:hover {
-	color: #ec3323
+	color: #ff9317
 }
 
 .single_faq_accordian {
@@ -2927,7 +2927,7 @@ button.gFive-theme-btn:hover {
 	width: 13%;
 	height: 101%;
 	left: -26px;
-	background: #ec3323;
+	background: #ff9317;
 	-webkit-transform: skew(-30deg);
 	transform: skew(-30deg);
 	-webkit-transition: all 0.4s ease 0s;
@@ -2941,7 +2941,7 @@ button.gFive-theme-btn:hover {
 	width: 13%;
 	height: 101%;
 	left: -26px;
-	background: #ec3323;
+	background: #ff9317;
 	-webkit-transform: skew(30deg);
 	transform: skew(30deg);
 }
@@ -2976,7 +2976,7 @@ button.gFive-theme-btn:hover {
 }
 
 .sidebar-widget form p input:focus {
-	border: 2px solid #ec3323;
+	border: 2px solid #ff9317;
 }
 
 .sidebar-widget form {
@@ -3083,7 +3083,7 @@ button.gFive-theme-btn:hover {
 	padding: 5px 15px;
 	line-height: 20px;
 	text-transform: uppercase;
-	background: #ec3323;
+	background: #ff9317;
 	color: #fff;
 	font-weight: 500;
 	font-size: 14px;
@@ -3115,7 +3115,7 @@ button.gFive-theme-btn:hover {
 
 .car-booking-right h4 span {
 	text-transform: capitalize;
-	color: #ec3323;
+	color: #ff9317;
 	font-size: 16px;
 }
 
@@ -3161,7 +3161,7 @@ button.gFive-theme-btn:hover {
 
 .car-features ul li i {
 	margin-right: 5px;
-	color: #ec3323;
+	color: #ff9317;
 }
 
 .single-booking h3,
@@ -3223,7 +3223,7 @@ button.gFive-theme-btn:hover {
 }
 
 .single-booking form p input:focus {
-	border: 2px solid #ec3323
+	border: 2px solid #ff9317
 }
 
 .single-booking {
@@ -3288,15 +3288,15 @@ button.gFive-theme-btn:hover {
 }
 
 input[type="radio"]:checked~.check {
-	border: 3px solid #ec3323;
+	border: 3px solid #ff9317;
 }
 
 input[type="radio"]:checked~.check:before {
-	background: #ec3323;
+	background: #ff9317;
 }
 
 input[type="radio"]:checked~label {
-	color: #ec3323;
+	color: #ff9317;
 }
 
 .payment img {
@@ -3309,7 +3309,7 @@ input[type="radio"]:checked~label {
 }
 
 .action-btn a.gFive-btn {
-	color: #ec3323;
+	color: #ff9317;
 	margin: 30px 0 0 0
 }
 
@@ -3435,7 +3435,7 @@ input[type="radio"]:checked~label {
 	font-size: 16px;
 	line-height: 60px;
 	font-weight: 500;
-	background: #ec3323;
+	background: #ff9317;
 	text-transform: capitalize;
 	font-family: 'Poppins', sans-serif;
 	-webkit-transition: all 500ms ease;
@@ -3572,7 +3572,7 @@ input[type="radio"]:checked~label {
 
 .recent-text p,
 .product-title p {
-	color: #ec3323;
+	color: #ff9317;
 	font-weight: 500;
 }
 
@@ -3637,9 +3637,9 @@ input[type="radio"]:checked~label {
 }
 
 .product-action a:hover {
-	background: #ec3323 none repeat scroll 0 0;
+	background: #ff9317 none repeat scroll 0 0;
 	color: #fff;
-	border: 1px solid #ec3323
+	border: 1px solid #ff9317
 }
 
 .product-item {
@@ -3702,11 +3702,11 @@ input[type="radio"]:checked~label {
 }
 
 .single-shop-price p span {
-	color: #ec3323;
+	color: #ff9317;
 }
 
 .single-shop-page-btn a.gFive-btn {
-	color: #ec3323;
+	color: #ff9317;
 	margin: 0;
 }
 
@@ -3748,9 +3748,9 @@ input[type="radio"]:checked~label {
 
 .single-shop-page-btn ul li a:hover,
 .gFive-cart-close a:hover {
-	background: #ec3323 none repeat scroll 0 0;
+	background: #ff9317 none repeat scroll 0 0;
 	color: #fff;
-	border: 1px solid #ec3323
+	border: 1px solid #ff9317
 }
 
 .gFive-related-products .product-item {
@@ -3852,7 +3852,7 @@ input[type="radio"]:checked~label {
 }
 
 .cart-clear a:hover {
-	color: #ec3323
+	color: #ff9317
 }
 
 .order-summury-box {
@@ -3883,7 +3883,7 @@ input[type="radio"]:checked~label {
 }
 
 .checkout-action a.gFive-btn {
-	color: #ec3323;
+	color: #ff9317;
 	margin: 0
 }
 
@@ -3937,7 +3937,7 @@ input[type="radio"]:checked~label {
 }
 
 .checkout-left-box form input:focus {
-	border: 2px solid #ec3323;
+	border: 2px solid #ff9317;
 }
 
 .checkout-left-box form label {
@@ -4067,7 +4067,7 @@ input[type="radio"]:checked~label {
 }
 
 .comment-info a:hover {
-	color: #ec3323
+	color: #ff9317
 }
 
 .comment-info a i {
@@ -4102,7 +4102,7 @@ input[type="radio"]:checked~label {
 
 .gFive-leave-comment form input:focus,
 .gFive-leave-comment form textarea:focus {
-	border: 2px solid #ec3323
+	border: 2px solid #ff9317
 }
 
 .gFive-leave-comment .gFive-theme-btn {
@@ -4151,7 +4151,7 @@ input[type="radio"]:checked~label {
 
 .notfound-box a.gFive-btn {
 	margin: 30px 0 0 0;
-	color: #ec3323;
+	color: #ff9317;
 }
 
 .notfound-box a.gFive-btn:hover {
@@ -4183,7 +4183,7 @@ input[type="radio"]:checked~label {
 .login-page-heading i {
 	font-size: 22px;
 	margin-right: 5px;
-	color: #ec3323;
+	color: #ff9317;
 }
 
 .login-page-heading>h3 {
@@ -4257,7 +4257,7 @@ input[type="radio"]:checked~label {
 }
 
 .login-sign-up>a:hover {
-	color: #ec3323
+	color: #ff9317
 }
 
 .login-page-box .remember {
@@ -4317,7 +4317,7 @@ input[type="radio"]:checked~label {
 }
 
 .lost-pass a:hover {
-	color: #ec3323;
+	color: #ff9317;
 }
 
 .checkbox label {
@@ -4413,8 +4413,8 @@ input[type="radio"]:checked~label {
 .checkbox-spin:checked+label span:before {
 	-webkit-transform: rotateZ(180deg);
 	transform: rotateZ(180deg);
-	background: #ec3323;
-	border: 1px solid #ec3323;
+	background: #ff9317;
+	border: 1px solid #ff9317;
 }
 
 
@@ -4460,7 +4460,7 @@ input[type="radio"]:checked~label {
 
 .contact-left form input:focus,
 .contact-left form textarea:focus {
-	border: 2px solid #ec3323;
+	border: 2px solid #ff9317;
 }
 
 .single-contact-field button.gFive-theme-btn {
@@ -4470,7 +4470,7 @@ input[type="radio"]:checked~label {
 }
 
 .contact-details p i {
-	color: #ec3323;
+	color: #ff9317;
 	margin-right: 5px;
 }
 
@@ -4501,7 +4501,7 @@ input[type="radio"]:checked~label {
 	letter-spacing: 1px;
 	color: #fff;
 	font-weight: 500;
-	background: #ec3323 none repeat scroll 0 0;
+	background: #ff9317 none repeat scroll 0 0;
 	border-radius: 4px;
 }
 
@@ -4530,7 +4530,7 @@ input[type="radio"]:checked~label {
 }
 
 .social-links-contact ul li a:hover {
-	background: #ec3323 none repeat scroll 0 0;
+	background: #ff9317 none repeat scroll 0 0;
 	color: #fff;
-	border: 1px solid #ec3323;
+	border: 1px solid #ff9317;
 }
